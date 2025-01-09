@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Creational\Facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{0575751F-317B-45C9-8475-14A6D9AE8A12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C9D07410-51CA-4EDC-B3D5-42739627E8D2} = {5241E38C-2C49-484D-A25C-63A1AE0D5C9D}
 		{0575751F-317B-45C9-8475-14A6D9AE8A12} = {5241E38C-2C49-484D-A25C-63A1AE0D5C9D}
+		{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3} = {5241E38C-2C49-484D-A25C-63A1AE0D5C9D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C9D07410-51CA-4EDC-B3D5-42739627E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{0575751F-317B-45C9-8475-14A6D9AE8A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0575751F-317B-45C9-8475-14A6D9AE8A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0575751F-317B-45C9-8475-14A6D9AE8A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49D5E1F-B68E-43E2-94D6-B4822A78BCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
